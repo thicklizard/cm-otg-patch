@@ -637,10 +637,7 @@ ksb_usb_probe(struct usb_interface *ifc, const struct usb_device_id *id)
 	case 0x9048:
 	case 0x904C:
 	case 0x9075:
-<<<<<<< HEAD
 	case 0x908A:
-=======
->>>>>>> 9806964... small upstream changes
 		if (ifc_num != 2)
 			return -ENODEV;
 		ksb = __ksb[EFS_HSIC_BRIDGE_INDEX];
